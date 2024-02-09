@@ -1,0 +1,91 @@
+.root {
+    /* Gradient background from #1e90ff at the top to #FcBFFf at the bottom */
+    -fx-background-color: linear-gradient(from 0% 20% to 0% 100%, #1e90ff, #FFBFFf);
+}
+
+.background {
+    /* Gradient background from #1e90ff at the top to #FcBFFf at the bottom */
+    -fx-background-color: linear-gradient(from 0% 70% to 0% 100%, #1e90ff, #FFBFFf);
+}
+
+.custom-button {
+    -fx-background-color: #ffd700; 
+    -fx-font-size: 20px; 
+    -fx-text-fill: #000000; 
+    -fx-font-weight: bold; 
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.square {
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16;
+    -fx-background-radius: 22;
+    -fx-border-radius: 20;
+}
+
+.square-result {
+    -fx-background-color: #2EBE07;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16;
+    -fx-background-radius: 22;
+    -fx-border-radius: 20;
+}
+
+.square-Invalid{
+    -fx-background-color: #E50404;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16;
+    -fx-background-radius: 22;
+    -fx-border-radius: 20;
+}
+
+
+.custom-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+.sub-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+.choice-box {
+    -fx-background-color: #ffd700; 
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.custom-radiobutton .radio {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-min-width: 0px;
+    -fx-min-height: 0px;
+    -fx-background-insets: 0;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 0px 0px;
+}
+
+
+.custom-radiobutton .dot {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.custom-radiobutton:selected .dot, .radio-button:armed .dot {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
